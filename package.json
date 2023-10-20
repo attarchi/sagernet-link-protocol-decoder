@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "start": "npm run build && node ./dist/",
     "build": "npx tsc",
     "build:watch": "npx tsc --watch",
     "lint": "npm run eslint && npm run prettier:check",
